@@ -29,5 +29,5 @@ RUN apt-get update && apt-get install -y \
     /GW_Python/bin/pip3 install "napari[all]" && \ 
     wget https://github.com/Nanostring-Biostats/CosMx-Analysis-Scratch-Space/raw/refs/heads/Main/assets/napari-cosmx%20releases/napari_CosMx-0.4.17.0-py3-none-any.whl && \
     /GW_Python/bin/pip3 install napari_CosMx-0.4.17.0-py3-none-any.whl && \
-    pip freeze | grep "napari_CosMx"
+    /GW_Python/bin/pip3 freeze | grep "napari_CosMx"
     #/GW_Python/bin/pip3 install torch torchvision torchaudio && \
